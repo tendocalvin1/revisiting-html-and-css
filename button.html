@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons in both HTML and CSS</title>
+</head>
+<body>
+    <!--we can use propeties such as the border radius to make the button smooth-->
+
+    <a href="https://github.com/tendocalvin1"target="_blank">
+    <button style="background-color: lightblue; font-size:25px; color:chocolate; border-radius:15px">Click Me</button>
+    </a>
+
+    <br>
+        
+    <button onclick="doSomething()" style="background-color: lightblue; font-size:25px; color:chocolate; border-radius:15px">Click Me</button>
+        
+    <p id="greeting">Hello, My name is Tendo Calvin and I want to become a software Enginner</p>
+
+    <script>
+
+        function doSomething(){
+            document.getElementById("greeting").innerHTML = "Hello, My name is Tendo Calvin and I want to become an Entrepreneur, Software Engineer and a Real Estate Developer";
+        }
+    </script>
+</body>
+</html>
