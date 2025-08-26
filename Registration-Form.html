@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+
+    <h1>Registration Form</h1>
+    <!--
+    Registration Form
+Inputs: text, email, password, date, checkbox, radio, file upload.
+Add <fieldset> and <legend> for grouping
+    
+    -->
+    <form>
+
+
+    <fieldset>
+    <label for="email">Email</label>
+    <input type="text" id="email" required><br>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" minlength="5"><br>
+
+    <label for="date">Date</label>
+    <input type="date" id="date"><br>
+
+    </fieldset>
+
+    <!--Title Section-->
+
+
+    <fieldset>
+        
+    <label for="title">Title:</label>
+
+            <label for="Mr">Mr:</label>
+            <input type="radio" id="Mr" value="Mr" name="title">
+
+            <label for="Mrs">Mrs:</label>
+            <input type="radio" id="Mrs" value="Mrs" name="title">
+
+            <label for="Other">Other:</label>
+            <input type="radio" id="Other" value="Other" name="title"><br>
+
+
+        </fieldset>
+
+    <!--Preferences-->
+    <legend>Preferences</legend>
+        <fieldset>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the terms and conditions.</label>
+        </fieldset>
+
+
+    
+    <!--File Upload-->
+    <legend>File Upload</legend>
+    <input type="file" id="profile-picture" name="profile-picture" accept="image/*"><br>
+
+
+    <input type="reset"><br>
+    <input type="submit"><br>
+
+</form>
+</body>
+</html>
