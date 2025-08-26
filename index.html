@@ -3,22 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first Website</title>
+    <title>My Portfolio</title>
 </head>
-<body>
-    <h1>This is an H1 heading</h1>
-    <h2>This is an H2 heading</h2>
-    <h3>This is an H3 heading</h3>
-    <h4>This is an H4 heading</h4>
-    <h5>This is an H5 heading</h5>
-    <h6>This is an H6 heading</h6>
+<body style="background-color: lightblue;">
+     <!--
+Personal Portfolio (HTML Structure Only)
+Sections: About Me, Projects, Contact.
+Use <header>, <nav>, <section>, <article>, <footer>.
+Add placeholders for images, links, and text.
+    
+     -->
 
-    <pre>
-     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <!--Header Section-->
+     <header>
+        <h1>Tendo Calvin</h1>
 
-     Laboriosam sunt voluptatem esse? Repellat, tempore alias, et deleniti natus ex,
+    <!--Navigation Section-->
+        <nav>
+        <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#projects">Projects</a></li>
+        </ul>
 
-     odit beatae ad autem est minima sed vel doloribus? Eum, possimus!   
-    </pre>
+        <!--
+        
+        640×320px-->
+        
+        <img src="images/TendoCalvin.jpg" alt="Tendo Calvin, the Software Engineer" width="320" height="640">
+        </nav>
+    
+     </header>
+
+
+     <!--Main Section-->
+     <main>
+        
+    <!--About Section-->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+        My name is Tendo Calvin. I am a Software Engineer by profession with interests in
+        AI/ML, full-stack developement, cloud-computing and DevOps developement. Besides software engineering,
+        I love participating in activities such as reading novels, playing some football and listening
+        to sports banter from channels like DR Sports and Expressions Oozing.
+        </p>
+
+        <h2>Programming Languages</h2>
+        <ol>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+        </ol>
+
+
+        <h2>Fields I specialize in</h2>
+        <ol>
+            <li>Artificial Intelligence</li>
+            <li>Full-stack developement</li>
+            <li>Data Science / Machine Learning</li>
+            <li>Cloud computing</li>
+        </ol>
+    </section>
+
+
+    <section id="contacts">
+        <h2>Contacts</h2>
+        <a href="mailto:tendo.calvin18@gmail.com" target="_blank">Email me</a><br>
+        <a href="https://github.com/tendocalvin1" target="_blank">Github</a><br>
+        <a href="https://X.com/calvintendo1" target="_blank">Twitter</a><br>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <h3>Airbnb Clone</h3>
+        <h3>Furniture Website</h3>
+        <h3>DayStar Day Care Center</h3>
+    </section>
+        
+     </main>
+
+     <footer>
+        
+        &copy; Tendo Calvin 2025<br>
+     </footer>
 </body>
 </html>
