@@ -1,0 +1,11 @@
+div{
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+span{
+    background-color: aquamarine;
+    display: block;
+}

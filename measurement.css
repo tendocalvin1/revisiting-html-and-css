@@ -1,0 +1,15 @@
+.box{
+    background-color: antiquewhite;
+    border: 3px solid;
+    height: auto;
+    width: auto;
+    padding: 1em;
+    box-sizing: border-box;
+    float: left;
+    min-height: 50%;
+}
+
+.container{
+    background-color: gray;
+    height: 100vh;
+}
