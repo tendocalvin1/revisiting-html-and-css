@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+.box{
+    border: 5px solid;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+#box1{
+    background-color: rgb(25, 212, 150);
+    margin-top: 50px;
+    margin-left: left;
+    margin-bottom: 40px;
+}
+
+#box2{
+    background-color: rgb(25, 212, 150);
+    margin-top: 50px;
+    margin-left: 40px;
+    
+}
