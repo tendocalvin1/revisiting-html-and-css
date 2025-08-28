@@ -1,16 +1,20 @@
 body{
-    background-color: black;
+    background-color: rgb(4, 63, 122);
 }
 
-h1{
-    color: whitesmoke;
-}
-
-.odd{
+#p1{
     color: tomato;
 }
 
-.even{
-    color: mediumseagreen;
+#p2{
+    color: yellowgreen;
+}
+
+#p3{
+    color: cyan;
+}
+
+#p4{
+    color:lightblue;
 }
 
