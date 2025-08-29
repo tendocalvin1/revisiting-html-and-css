@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid grey;
+    border-radius: 15px;
+}
+
+.card{
+    width: 250px;
+    height: 250px;
+    font-size: 5em;
+    text-align:center;
+    border-radius: 17px;
+}
+
+#card1{
+    background-color: aquamarine;
+    font-size: 8em;
+    border-radius: 15px;
+}
+
+#card2{
+    background-color: rgb(46, 233, 22);
+    font-size: 8em;
+    border-radius: 15px;
+}
+
+#card3{
+    background-color: rgb(148, 12, 226);
+    font-size: 8em;
+    border-radius: 15px;
+}
+
+#card4{
+    background-color: rgb(171, 218, 2);
+    font-size: 8em;
+    border-radius: 15px;
+}

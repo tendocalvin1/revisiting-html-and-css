@@ -1,0 +1,49 @@
+.logo img{
+    height: 400px;
+    width: 400px;
+    
+}
+.nav-links{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    align-content: space-evenly;
+    gap: 20px;
+}
+
+.bar{
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 5px 10px;
+    color: burlywood;
+    transition: 3s;
+}
+
+.bar:hover{
+    background-color: rgb(23, 233, 23);
+}
+
+#About{
+    font-size: 2em;
+    align-self: center;
+}
+
+#Contact{
+    font-size: 2em;
+    align-self: center;
+}
+
+#Direction{
+    font-size: 2em;
+    align-self: center;
+}
+
+#Profile{
+    font-size: 2em;
+    align-self: center;
+}
+
+#History{
+    font-size: 2em;
+    align-self: center;
+}
